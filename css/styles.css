@@ -4,3 +4,16 @@ table, th, td {
   padding: 5px;
 
 }
+
+img {
+  max-width: 100%;
+  height:auto
+}
+/* I want to add the following style elements:
+    *borders on pictures
+    *sizing pictures appropriately
+    *format jump to section
+    *add background color
+    *change font
+  */
+    
