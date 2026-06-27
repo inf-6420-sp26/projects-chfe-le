@@ -1,53 +1,62 @@
 
 /* Page body and container css */
-body {font-family:'Nunito', sans-serif;
-font-weight: 400;
+body {
+    font-family:'Nunito', sans-serif;
+    font-weight: 400;
 }
 
-h1, h2{font-family:'Raleway', sans-serif;}
+h1, h2 {
+    font-family:'Raleway', sans-serif;
+}
 
 .container {
-            width: 1170px;
-            margin: 0 auto;
-            }
+    width: 1170px;
+    margin: 0 auto;
+}
 /* header section css */
-header{
-        background-image: url("../images/paul-gilmore-145802-unsplash.jpg");
-        background-size: cover;
-        background-position: bottom;
-        color: #fff;
-        padding: 40px;
-        }
-header h1{
+header {
+    background-image: url("../images/paul-gilmore-145802-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    /* I can't tell */
+    /* background-position: bottom; */
+    color: #fff;
+    padding: 40px;
+    line-height: 0.5;
+}
+header h1 {
     font-size: 64px;
     font-weight: 400;
+
 }
 header .motto {
     font-style: italic;
     font-size: 20px;
     margin-top: 10px;
+    font-weight: 400;
 }
 
 /* Menu section css */
 
-#menu{
+#menu {
     background-color: #F0F0F0;
-    padding:30px 0 40px;
+    padding:10px 0 10px;
     font-weight: 400;
+
 }
 
-#menu h2{
+#menu h2 {
     font-size: 36px;
     margin-bottom: 20px;
     font-weight: 400;
 }
 
-#menu dt{
+#menu dt {
     font-weight: bold;
     margin-top: 15px;
     font-weight: 400;
 }
-#menu dd{
+#menu dd {
     margin:0;
     font-weight: 400;
 }
@@ -55,36 +64,39 @@ header .motto {
 /* About us section css*/
 main {
     background-color: #e0e0e0;
-    padding: 30px 0 40px;
+    padding: 10px 0 10px;
 }
 main h2{
     font-size: 36px;
     margin-bottom: 20px;
     font-weight: 400;
 }
-main p{
+main p {
     line-height: 1.6;
     margin-bottom: 20px;
     font-weight: 400;
 }
 
+
 main p:has(img) {
     float: right;
     margin: 0 0 20px 30px;
 }
-main img{
+
+main img {
+    float:right;
     max-width: 350px;
     display: block;
 }
 
-main .container::after{
+main::after {
     content: "";
-    display:table;
+    display:block;
     clear: both;
 }
 
-/* footer section */
-footer{
+/* footer section css*/
+footer {
     background-color: #3e1305;
     color: #fff;
     padding: 20px 0;
@@ -94,10 +106,10 @@ footer a {
     margin-right: 10px;
 }
 
-footer svg{
+footer svg {
     fill: #fff;
 }
 
-footer p{
+footer p {
     margin: 10px 0 0;
 }
