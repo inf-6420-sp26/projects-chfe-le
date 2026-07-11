@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Detroit Area Black-Owned Pilates</title><!--might change to black led-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+        <div>
+            <header class="site-header">
+                <div class="nav-wrap">
+                <h1 class="site-title">A Guide To Black-Owned Pilates In Metro Detroit</h1>
+                <nav class="main-navigation"> 
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="guide.html">Guide</a></li>
+                        <li><a href="resources.html">Blog</a></li>
+                        <li><a href="contact.html">Contribute</a></li>
+                    </ul>
+                </nav>
+                </div>
+            </header>
+        </div>
+    <main>
+        <section class = "growth"> <!---WHAT IS THIS??-->
+            <div class="container"> <!--WHERE DOES THIS DIV END?? -->
+            <h1>Know a studio or instructor we should feature?</h1>
+            <p>Please drop some details in the form below. This guide grows through word of mouth!</p>
+            
+        </section>
+        <section class = "container">
+            <div class="form-layout">
+            <form>
+                <div class="field">
+                    <label for="Name">Your Name<span class="required">*</span></label>
+                    <input type="text" id="name" name="name" required autocomplete="name" placeholder="Name">
+                </div>
+                <div class="field">
+                    <label for="email">Your Email<span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required autocomplete="email" placeholder="Email">
+                </div>
+                <div class="field">
+                    <label for="reason">What will you contribute to the guide?<span class="required">*</span></label>
+                    <select id="reason" name="reason" required>
+                        <option value="" selected disabled>Choose One</option>
+                        <option value="studio">Suggest a studio</option>
+                        <option value="instructor">Suggest an instructor</option>
+                        <option value="correction">Correct existing info</option>
+                        <option value="other">Something else</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="studio-name">Studio or Instructor Name</label>
+                    <input type="text" name="studio-name" id="studio-name" autocomplete="off" placeholder="Studio or Instructor Name">
+                </div>
+                <div class="field">
+                    <label for="link">Website or Social Media Profile link</label>
+                    <input type="url" name="link" id="link" placeholder="https://">
+                </div>
+                <div class="field">
+                    <label for="message">Message<span class="required">*</span></label>
+                    <textarea id="message" name="message" required placeholder="Tell us more about what you're submitting"></textarea>
+                </div>
+                <p class="form-note">Fields marked <span class="required">*</span> are required.</p>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+            </div>
+        </section>
+        <aside class= "side-note">
+            <h2>What happens next?</h2>
+            <p>Entries will be reviewed carefully and we will contact you via email if follow up is needed. Thank you for helping this guide grow!</p><br>
+        </aside>
+        </div>
+    </main>
+</body>
+<footer class="site-footer">© 2026 | A Community Guide - authored by Christina Feiner</footer>
+</html>
